@@ -1,0 +1,41 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "starter-react-router",
+  "version": "0.0.1",
+  "description": "Get started using React Router for client-side routing",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.42.0",
+    "react-router-dom": "^5.1.2",
+    "webpack-cli": "^3.3.11",
+    "react-bootstrap": "^1.0.0",
+    "react-router-bootstrap": "^0.25.0",
+    "bootstrap": "^4.4.1",
+    "style-loader": "^1.1.2",
+    "css-loader": "^3.4.1",
+    "css": "^2.2.4",
+    "babel-loader": "^8.0.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/starter-react-router"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
